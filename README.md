@@ -1,63 +1,30 @@
-# 📊 Sales Forecasting using Python
+# 📊 Sales Forecasting Project using Python
 
-This project is about predicting **future sales** using previous/historical sales data.  
-It helps businesses understand how much sales they can expect in upcoming days or months.
-
----
-
-## 🛠️ Tools & Languages Used
-
-- Python
-- Pandas
-- Matplotlib
-- Scikit-learn
-- Statsmodels (for time series)
+This project focuses on predicting **future sales revenue** using historical sales transaction data.  
+It helps businesses make informed decisions related to demand planning, inventory, and revenue management.
 
 ---
 
-## 📁 Dataset
+## 🎯 Objective
 
-We used a simple dataset with the following columns:
-
-| Date       | Sales |
-|------------|--------|
-| 2021-01-01 | 1542   |
-| 2021-01-02 | 1601   |
-| ...        | ...    |
-
-✅ **Date** – the date of the sale  
-✅ **Sales** – total sales on that date
+- Analyze past sales trends
+- Forecast future revenue
+- Visualize patterns and seasonality in sales
 
 ---
 
-## 📊 What We Did
+## 📁 Dataset Overview
 
-1. Cleaned the dataset  
-2. Visualized the data using graphs  
-3. Trained a time series model (like ARIMA)  
-4. Predicted sales for the next 30 days
+The dataset includes daily sales data with the following columns:
 
----
+| Column     | Description                              |
+|------------|------------------------------------------|
+| date       | Date of the transaction                  |
+| product    | Product name                             |
+| category   | Product category (e.g., Electronics)     |
+| price      | Price per unit                           |
+| quantity   | Units sold                               |
+| revenue    | Total revenue (price × quantity)         |
 
-## 📈 Results
-
-- The model predicted sales values for future days  
-- We created graphs to compare **actual vs predicted sales**
-
----
-
-## 🖼️ Screenshots
-
-📷 Graph showing forecasted sales  
-📷 Comparison of actual and predicted sales
-
----
-
-## 🎥 Demo Video
-
-📁 `recording.mp4` — This video explains the project with a screen recording and my voice
-
----
-
-## 📂 Project Folder Structure
+### 📊 Sample
 
